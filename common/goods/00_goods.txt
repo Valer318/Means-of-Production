@@ -393,15 +393,6 @@ explosives = {
 	convoy_cost_multiplier = 1.5
 }
 
-mechanical_components = {
-	texture = "gfx/interface/icons/goods_icons/mechanical_components.dds"
-	cost = 45
-	category = industrial
-
-	prestige_factor = 3
-	traded_quantity = 5 # 250
-}
-
 ##########
 # LUXURY #
 ##########
