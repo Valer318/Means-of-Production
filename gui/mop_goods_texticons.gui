@@ -1,0 +1,31 @@
+texticon = {
+	icon = mechanical_components
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/mechanical_components.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = machine_parts
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = precision_components
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/precision_components.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+

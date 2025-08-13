@@ -1,0 +1,24 @@
+﻿goods_output_mechanical_components_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_machine_parts_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_precision_components={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
