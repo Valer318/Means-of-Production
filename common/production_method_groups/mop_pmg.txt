@@ -1,0 +1,10 @@
+﻿pmg_machine_parts = {
+	texture = "gfx/interface/icons/generic_icons/pmg_machine_parts.dds"
+	production_methods = {
+		pm_mp_hand_assembly
+        pm_mp_line_shafts
+        pm_mp_powered_machines
+        pm_mp_flow_line
+
+	}
+}
