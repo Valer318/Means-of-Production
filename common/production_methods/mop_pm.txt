@@ -1,87 +1,37 @@
-﻿pm_mp_hand_assembly = {
-	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+#Machine parts
 
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_iron_add  = 20
-			goods_input_tools_add = 10
-			# output goods
-			goods_output_machine_parts_add = 24
-		}
-
-		level_scaled = {
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add    = 4500
-		}
-	}
+pm_mp_cast_iron = {
+    texture = "gfx/interface/icons/production_method_icons/mp_cast_iron.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 40
+            goods_input_wood_add = 10 
+            goods_input_tools_add = 5         
+            goods_output_machine_parts_add = 30
+        }
+        level_scaled = {
+            building_employment_laborers_add = 3000
+            building_employment_machinists_add = 800
+        }
+    }
 }
 
-pm_mp_line_shafts = {
-	texture = "gfx/interface/icons/production_method_icons/line_shafts.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_iron_add  = 22
-			goods_input_tools_add = 14
-			goods_input_coal_add  = 8  # steam power for shaft drives
-			# output goods
-			goods_input_machine_parts_add = 32
-		}
-
-		level_scaled = {
-			building_employment_laborers_add   = 4000
-			building_employment_machinists_add = 450
-			building_employment_engineers_add  = 30
-			building_employment_clerks_add     = 90
-		}
-	}
+pm_mp_steel_machining = {
+    texture = "gfx/interface/icons/production_method_icons/mp_steel.dds"
+    unlocking_technologies = { tech_bessemer_process }   # or open-hearth
+    # Mid-game, better yield, more machinists
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_steel_add = 35
+            goods_input_coal_add = 10
+            goods_input_industrial_lubricants_add = 5
+            goods_input_mechanical_components_add = 10
+            goods_output_machine_parts_add = 40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1800
+            building_employment_machinists_add = 1400
+        }
+    }
 }
 
-pm_mp_powered_machines = {
-	texture = "gfx/interface/icons/production_method_icons/machine_tools.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_iron_add   = 20
-			goods_input_steel_add  = 12
-			goods_input_tools_add  = 16
-			goods_input_coal_add   = 8
-			# output goods
-			goods_output_machine_parts_add = 40
-		}
-
-		level_scaled = {
-			building_employment_laborers_add   = 3000
-			building_employment_machinists_add = 600
-			building_employment_engineers_add  = 60
-			building_employment_clerks_add     = 120
-		}
-	}
-}
-
-pm_mp_flow_line = {
-	texture = "gfx/interface/icons/production_method_icons/assembly_line.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_steel_add        = 16
-			goods_input_tools_add        = 18
-			goods_input_electricity_add  = 10
-			# optional lubricant if you use it in your mod:
-			# goods_input_oil_add          = 4
-			# output goods
-			goods_output_machine_parts_add = 52
-		}
-
-		level_scaled = {
-			building_employment_laborers_add   = 2000
-			building_employment_machinists_add = 700
-			building_employment_engineers_add  = 120
-			building_employment_clerks_add     = 200
-		}
-	}
-}

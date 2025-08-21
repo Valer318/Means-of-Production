@@ -1,7 +1,7 @@
 l_english:
 
-modifier_goods_output_machine_parts_add: "@machine_parts! machine parts output per level"
-modifier_goods_output_machine_parts_add_desc: "The amount of @machine_parts! machine_parts produced by buildings"
+modifier_goods_output_machine_parts_add: "Machine Parts output per level"
+modifier_goods_output_machine_parts_add_desc: "The amount of Machine Parts produced by buildings"
 
-modifier_goods_input_machine_parts_add: "@machine_parts! machine parts input per level"
-modifier_goods_input_machine_parts_add_desc: "The amount of @machine_parts! machine_parts consumed by buildings"
+modifier_goods_input_machine_parts_add: "Machine Parts input per level"
+modifier_goods_input_machine_parts_add_desc: "The amount of Machine Parts consumed by buildings"

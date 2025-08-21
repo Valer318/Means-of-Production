@@ -8,3 +8,28 @@ machine_parts = {
 	traded_quantity = 5 # 250
 	convoy_cost_multiplier = 1.3
 }
+
+machine_tools = {
+	texture = "gfx/interface/icons/goods_icons/machine tools.dds"
+	cost = 25
+	category = industrial
+
+	prestige_factor = 6
+
+	traded_quantity = 5 # 250
+	convoy_cost_multiplier = 1.3
+}
+
+
+industrial_lubricants = {
+	texture = "gfx/interface/icons/goods_icons/industrial_lubricants.dds"
+	cost = 25
+	category = industrial
+
+	prestige_factor = 6
+
+	traded_quantity = 5 # 250
+	convoy_cost_multiplier = 1.3
+}
+
+
