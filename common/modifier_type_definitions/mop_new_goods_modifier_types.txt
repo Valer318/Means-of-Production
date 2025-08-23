@@ -15,6 +15,21 @@ goods_output_machine_parts_add={
 	}
 }
 
+goods_input_machine_tools_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_machine_tools_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
 
 goods_input_industrial_lubricants_add={
 	decimals=1
